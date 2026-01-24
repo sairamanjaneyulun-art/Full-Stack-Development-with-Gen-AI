@@ -1,0 +1,10 @@
+h1{
+    background-color: wheat;
+    color: coral;
+}
+
+div{
+    font-size: 30pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
