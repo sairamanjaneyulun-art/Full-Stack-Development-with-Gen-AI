@@ -21,8 +21,8 @@
         var result2 = a < b;
         var result3 = a > b && a > c;
 
-        var x1 = 100;
-        var x2 = "100";
+        var x1 = 100; // Number Type Consider
+        var x2 = "100"; // String Type Consider
 
         var age = 21;
         var votingAgeResult4 = age >= 18 ? "Yes, You can vote." : "No, You can't vote.";
@@ -42,6 +42,7 @@
         document.write("<br> == 'Check only Values' <br>")
         document.write(x1 == x2)
         document.write("<br>")
+        document.write("This is (100) " + typeof(x1) + " & " + 'This is ("100") ' + typeof(x2) + "<br>")
 
         document.write("<br> === 'Check both Values & DataTypes' <br>")
         document.write(x1 === x2)
