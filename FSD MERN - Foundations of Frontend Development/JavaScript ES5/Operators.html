@@ -11,15 +11,27 @@
     <script>
         var a = 10;
         var b = 3;
+        var c = 8;
         
         var sum = a + b;
         var sub = a - b;
         var mul = a * b;
 
+        var result1 = a > b;
+        var result2 = a < b;
+        var result3 = a > b && a > c;
+
         document.write("<br> Arithemetic Operators <br>")
-        document.write("The Sum is " + sum)
-        document.write("The Sub is " + sub)
-        document.write("The Mul is " + mul)
+        document.write("The Sum is " + sum + "<br>")
+        document.write("The Sub is " + sub + "<br>")
+        document.write("The Mul is " + mul + "<br>")
+
+        document.write("<br> Conditional Operators <br>")
+        document.write("a > b is " + result1 + "<br>")
+        document.write("a < b is " + result2 + "<br>")
+
+        document.write("<br> Logical Operators <br>")
+        document.write("a > b && a > c is " + result3 + "<br>")
     </script>
 </body>
 </html>
