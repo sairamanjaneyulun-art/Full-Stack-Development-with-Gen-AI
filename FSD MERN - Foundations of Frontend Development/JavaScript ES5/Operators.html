@@ -21,6 +21,12 @@
         var result2 = a < b;
         var result3 = a > b && a > c;
 
+        var x1 = 100;
+        var x2 = "100";
+
+        var age = 21;
+        var votingAgeResult4 = age >= 18 ? "Yes, You can vote." : "No, You can't vote.";
+
         document.write("<br> Arithemetic Operators <br>")
         document.write("The Sum is " + sum + "<br>")
         document.write("The Sub is " + sub + "<br>")
@@ -32,6 +38,28 @@
 
         document.write("<br> Logical Operators <br>")
         document.write("a > b && a > c is " + result3 + "<br>")
+
+        document.write("<br> == 'Check only Values' <br>")
+        document.write(x1 == x2)
+        document.write("<br>")
+
+        document.write("<br> === 'Check both Values & DataTypes' <br>")
+        document.write(x1 === x2)
+        document.write("<br>")
+
+        document.write("<br> Increment Operator <br>")
+        document.write(" 'Before Increment' The Value of a is " + a + "<br>")
+        a++;
+        document.write(" 'After Increment' The Value of a is " + a + "<br>")
+        
+
+        document.write("<br> Decrement Operator <br>")
+        document.write(" 'Before Decrement' The Value of c is " + c + "<br>")
+        c--;
+        document.write(" 'After Decrement' The Value of c is " + c + "<br>")
+
+        document.write(" <br> Ternary Operator <br>")
+        document.write("Only above 18 can vote? Can you vote: " + votingAgeResult4)
     </script>
 </body>
 </html>
