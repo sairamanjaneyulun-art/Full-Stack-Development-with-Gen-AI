@@ -48,4 +48,4 @@ c--;
 document.write(" 'After Decrement' The Value of c is " + c + "<br>")
 
 document.write(" <br> Ternary Operator <br>")
-document.write("Only above 18 can vote? Can you vote: " + votingAgeResult4)
+document.write("Only above 18 can vote? Can I vote: " + votingAgeResult4)
