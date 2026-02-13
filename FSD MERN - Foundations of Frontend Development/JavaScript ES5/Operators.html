@@ -6,8 +6,63 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>JavaScript Operators Examples</h2>
+    <h1>JavaScript Operators Examples</h1>
+    <script>
+        {
+            let a = 10;
+            let b = 3;
+            let c = 8;
 
-    <script src="Operators.js"></script>
+            let x = 100; // Number Type Consider
+            let y = "100"; // String Type Consider
+
+            document.write("<br>Arithmetic Operators<br>")
+            document.write("The Sum of " + (a + b) + "<br>")
+            document.write("The Sub of " + (a - b) + "<br>")
+            document.write("The Mul of " + (a * b) + "<br>")
+            document.write("The Div of " + (a / b) + "<br>")
+            document.write("The Modulas of " + (a % b) + "<br>")
+
+            document.write("<br>Conditional/Comparsion Operators<br>")
+            document.write("The a > b is " + (a > b) + "<br>")
+            document.write("The a >= b is " + (a >= b) + "<br>")
+            document.write("The a < b is " + (a < b) + "<br>")
+            document.write("The a <= b is " + (a <= b) + "<br>")
+            document.write("The a != b is " + (a != b) + "<br>")
+
+            document.write("<br>'==' It Check's only Values<br>")
+            document.write(x == y);
+            document.write("<br>")
+
+            document.write("<br>'===' It Check's both Value & DataType<br>")
+            document.write(x === y)
+            document.write("<br>")
+
+            document.write("<br>The Type of x is " + typeof(x) + " & The Type of y is " + typeof(y) + "<br>")
+
+            document.write("<br>Logical Operators<br>")
+            document.write("The a > b && a > c is " + (a > b && a > c) + "<br>") // And(&&) Operator means both the conditions must be true
+            document.write("The a > b || a < c is " + (a > b || a < c) + "<br>") // Or(||) Operator means anyone condition must true
+            document.write("The !a > b " + (!a > b) + "<br>") // Not(!) Operator if the condition is true result will be false, if false result will true
+
+            document.write("<br>Increment Operator<br>")
+            document.write("Before Increment: " + a + "<br>")
+            a++
+            document.write("After Increment: " + a + "<br>")
+
+            document.write("<br>Decrement Operator<br>")
+            document.write("Before Decrement: " + b + "<br>")
+            b--
+            document.write("After Decrement: " + b + "<br>")
+        }
+
+        {
+            let age = 14
+            let vote = age >= 18 ? "Yes, You can vote" : "No, You can't vote"
+
+            document.write("<br>Ternary Operator<br>")
+            document.write("Can I vote: " + vote)
+        }
+    </script>
 </body>
 </html>
