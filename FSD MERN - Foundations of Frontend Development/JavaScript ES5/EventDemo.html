@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type = "button" value = "Click Here" onclick = "document.write('Hello, Event Generated')"> <br>
+    <input type = "button" value = "Double Click" ondblclick = "document.write('Hello, Double Click Event Generated')"> <br>
+    <input type = "button" value = "Mouse Over" onmouseover = "document.write('Hello, Mouse Over Event Generated') "> <br>
+    <input type = "button" value = "Call User Defined Function" onclick="call()"> <br>
+    <input type="text" name = "fname"
+    onkeyup="keyUpEvent()" onkeydown="keyDownEvent()">
+
+    <script>
+        function call() {
+            document.write('Hello User Defined Function, Event Generated')
+        }
+
+        function keyUpEvent() {
+            console.log('Key Up Event Fired')
+        }
+
+        function keyDownEvent() {
+            console.log('Key Down Event Fired')
+        }
+    </script>
+</body>
+</html>

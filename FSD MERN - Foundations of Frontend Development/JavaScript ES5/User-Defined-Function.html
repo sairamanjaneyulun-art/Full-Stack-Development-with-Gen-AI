@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function greet() {
+            alert('Hello Everyone, Welcome to User Defined Function')
+        }
+
+        function addNumber(a, b) {
+            sum = a + b
+            alert('The Sum of a & b ' + sum)
+        }
+
+        function checkLoginDetails(emailId, password) {
+            if (emailId == 'admin@gmail.com' && password == 'admin@123') {
+                return 'Successfully Login'
+            } else {
+                return 'Try Once Again'
+            }
+        }
+        // greet()
+    </script>
+</head>
+<body>
+    <script>
+        // greet()
+        // addNumber(10, 33)
+        let result = checkLoginDetails('admin@gmail.com', 'admin@123')
+        document.write(result)
+    </script>
+</body>
+</html>
