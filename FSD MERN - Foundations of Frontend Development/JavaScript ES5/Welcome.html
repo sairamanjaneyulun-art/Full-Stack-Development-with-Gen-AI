@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to JS</title>
+</head>
+<body>
+    <!-- 
+    JavaScript is known as object oriented interpreter scripting language, From ES6 onward
+    but before it was Object Based interpreter scripting language till ES5.
+
+    Object is a real-world entity.
+    Interpreter means checking the code line by line.
+
+    In some Programming language we have to generate a file and have to run it to get the 
+    output, but in scripting language it will directly check the code language and get the output, It will not 
+    generate in a different file
+
+    ES means ECMA.
+    ECMA: European Computer Manufacturers Association.
+    ES is a concept. JavaScript is one of the implementation of the concept.
+
+    ES6 is introduced in 2015
+
+    Using JS we can do programming on the web page without any tool or server.(Means we don't need any 3rd Party Tools
+    to run the programming)
+    -->
+    <p id="demo0"></p>
+    <p id="demo1">This is HTML</p>
+    <button type="button" onclick="JS()">Click Here to change the content</button><br> <br>
+
+    <button type = "button" onclick = "bulb_on()">Turn on the Light</button>
+    <img id = "MyImage" src = "/Images/pic_bulboff.gif" alt = "Bulb_Off" style = "width: 100px;">
+    <button type = "button" onclick = "bulb_off()">Turn off the Light</button>
+
+    <p id="demo2">Hello, Everyone</p>
+
+    <p><b>Hide the element</b></p>
+    <p id="demo3">Good Bye</p>
+    <button type="button" onclick="hide()">Click here to Hide the Element</button> <br>
+
+    <p><b>Show the hidden element</b></p>
+    <p id="demo4" style="display: none;">Good Bye</p>
+    <button type="button" onclick="show()">Click here to Show the Hidden Element</button> <br>
+    <!-- 
+    In HTML,JavaScript code must be written in script tag.
+    Example:
+    <script>
+        document.write('My First JavaScript')
+    </script>
+    This is called Internal Script tag which can placed in head tag & body tag
+    -->
+
+    <p><b>Calling the alert() window using function</b></p>
+    <button type="button" onclick = "Alert()">Call the Alert window</button>
+
+    <p><b>Calling the print() window to print web page using function</b></p>
+    <button type="button" onclick = "Print()">Print the Web Page</button> <br> <br>
+    <script src = "Welcome.js"></script>
+    <!-- ^ This is External Script tag, Which can be placed in head and body tags. We can also add several script files -->
+</body>
+</html>
