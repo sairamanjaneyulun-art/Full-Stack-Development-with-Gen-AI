@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Statement JS</title>
+</head>
+<body>
+    <h2>If Statement</h2>
+    <script>
+        var a = 13;
+        var b = 6;
+        if (a > b) {
+            document.writeln("The Value of 'a' is the Largest Number<br>")
+        } else {
+            document.writeln("The Value of 'b' is the Largest Number<br>")
+        }
+        document.writeln('Finised....')
+        document.writeln('<br><br>')
+
+        var m1 = 90;
+        var m2 = 65;
+        var m3 = 73;
+        var total = m1 + m2 + m3;
+        var avgTotal = total / 3;
+
+        if (avgTotal >= 90) {
+            document.writeln('Grade O')
+        } else if (avgTotal >= 70) {
+            document.writeln('Grade A')
+        } else if (avgTotal >= 50) {
+            document.writeln('Grade B')
+        } else {
+            document.writeln('Grade C')
+        }
+
+        document.writeln('<br><br>')
+
+        var num = 9;
+
+        if (num % 2 == 0) {
+            document.writeln(num + ' is an Even Number')
+        } else {
+            document.writeln(num + ' is a Odd Number')
+        }
+    </script>
+</body>
+</html>
