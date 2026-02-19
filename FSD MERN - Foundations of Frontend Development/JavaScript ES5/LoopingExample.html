@@ -8,7 +8,8 @@
 <body>
     <h2>Loops</h2>
     <script>
-        // while Loop Code(Entry Loop) : It will keep Get executed till the condition becomes false
+        // while Loop Code(Entry Loop) : Like (Email, Login,Login / Password Attempts, Tickets Per Day, Game loops)
+        // while loop focus on when the condition should stop running(or Running until a condition changes).
 
         // var i = 1;
         // var n = 10;
@@ -43,20 +44,28 @@
         // }
         // alert('Access Granted, You are ' + age + " years old")
 
-        let correctPin = '0614';
-        let enteredPin = '';
-        let attempts = 0;
+        // let correctPin = '0614';
+        // let enteredPin = '';
+        // let attempts = 0;
 
-        while (enteredPin !== correctPin && attempts < 3) {
-            enteredPin = prompt('Enter the PIN')
-            attempts++;
-        }
+        // while (enteredPin !== correctPin && attempts < 3) {
+        //     enteredPin = prompt('Enter the PIN')
+        //     attempts++;
+        // }
 
-        if (enteredPin === correctPin) {
-            console.log('Access Granted!')
-        } else {
-            console.log('Card Blocked, Too Many attempts.')
-        }
+        // if (enteredPin === correctPin) {
+        //     console.log('Access Granted!')
+        // } else {
+        //     console.log('Card Blocked, Too Many attempts.')
+        // }
+
+        let pin;
+
+        do {
+            pin = prompt('Enter The PIN')
+        } while (pin !== '0614');
+
+        document.writeln('Welcome to Do While Loop')
     </script>
 </body>
 </html>
