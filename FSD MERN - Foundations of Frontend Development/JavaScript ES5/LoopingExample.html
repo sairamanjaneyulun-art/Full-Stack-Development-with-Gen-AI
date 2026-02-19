@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops JS</title>
+</head>
+<body>
+    <h2>Loops</h2>
+    <script>
+        // while Loop Code(Entry Loop) : It will keep Get executed till the condition becomes false
+
+        // var i = 1;
+        // var n = 10;
+
+        // document.writeln('<br><br><b>while Loop</b><br>')
+        // while (i <= n) {
+        //     document.writeln('Hello<br>')
+        //     // document.write('The Value of i is ' + i + '<br>')
+        //     i++
+        // }
+
+        // While Loop: Infinite
+        // while (true) {
+        //     document.writeln('HI')
+        // }
+
+        // do while Loop : It is a menu driven application. Like: (Menu List, ATM, Course List)
+        // var i = 1;
+        // var n = 10;
+
+        // document.writeln('<br><b>do while Loop</b><br>')
+        // do {
+        //     document.writeln('Hello, Everyone<br>')
+        //     i++;
+        // } while (i <= n);
+
+        // let age;
+
+        // while (!age || age < 18) {
+        //     age = prompt('Enter your age(Your age must be 18 or Older to proceed):')
+        //     age = Number(age)
+        // }
+        // alert('Access Granted, You are ' + age + " years old")
+
+        let correctPin = '0614';
+        let enteredPin = '';
+        let attempts = 0;
+
+        while (enteredPin !== correctPin && attempts < 3) {
+            enteredPin = prompt('Enter the PIN')
+            attempts++;
+        }
+
+        if (enteredPin === correctPin) {
+            console.log('Access Granted!')
+        } else {
+            console.log('Card Blocked, Too Many attempts.')
+        }
+    </script>
+</body>
+</html>
