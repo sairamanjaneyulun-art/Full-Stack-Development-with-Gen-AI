@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment JS 1</title>
+</head>
+<body>
+    <h3>Assignment 1</h3>
+    <script>
+        var con;
+        var a, b, sum, sub;
+
+        do {
+            alert('1 : Add, 2 : Substract')
+            var choice = eval(prompt('Enter your choice.'))
+            switch (choice) {
+                case 1:
+                    a = eval(prompt('Enter the Value of "a"'))
+                    b = eval(prompt('Enter the Value of "b"'))
+                    sum = a + b;
+                    alert('Sum is ' + sum)
+                    break;
+
+                case 2:
+                    a = eval(prompt('Enter the Value of "a"'))
+                    b = eval(prompt('Enter the Value of "b"'))
+                    sub = a - b;
+                    alert('Sub is ' + sub)
+                    break;
+            
+                default: alert('Wrong Choice')
+                    break;
+            }
+            con = confirm('Do you want to continue?')
+        } while (con);
+        alert('Thank you. Visit Again!')
+    </script>
+</body>
+</html>
