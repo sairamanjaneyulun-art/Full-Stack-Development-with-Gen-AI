@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Defined Function JS</title>
+</head>
+<body>
+    <h2>User Defined Function</h2>
+    <script>
+        // function checkLoginDetails(emailId, password) {
+        //     if (emailId == 'admin@gmail.com' && password == 'admin@123') {
+        //         return 'Success'
+        //     } else {
+        //         return 'Failure'
+        //     }
+        //     checkLoginDetails('admin@gmail.com','admin@124')
+        // }
+
+        function calculateTheValue(num1, num2, operation) {
+            var cal = num1, num2;
+            alert('Calculation is ' + cal)
+            // var operation = eval(prompt('Enter the Operation you want to perform: +, -, *, /'))
+
+            // switch (operation) {
+            //     case '+':
+            //         cal = num1 + num2;
+            //         break;
+
+            //     case '-':
+            //         cal = num1 - num2;
+            //         break;
+
+            //     case '*':
+            //         cal = num1 * num2;
+            //         break;
+
+            //     case '/':
+            //         cal = num1 / num2;
+            //         break;
+
+            //     default:
+            //         cal = 'Invalid Operator';
+            // }
+        }
+        calculateTheValue(10 + 5)
+        calculateTheValue(1 - 5)
+        calculateTheValue(17 * 5)
+        calculateTheValue(27 / 15)
+        calculateTheValue(14 % 5)
+    </script>
+</body>
+</html>
