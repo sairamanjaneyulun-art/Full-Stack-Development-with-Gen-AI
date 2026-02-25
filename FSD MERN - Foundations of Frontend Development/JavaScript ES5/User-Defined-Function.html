@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Defined Function JS</title>
+    <script>
+        function greet() {
+            alert('Welcome to User Defined function')
+        }
+        // greet() // This is Called the function.
+
+        function addNumber(a, b) {
+            var sum = a + b;
+            alert('Displaying from Head Tag ' + sum)
+        }
+
+        function checkLoginDetails(emailId, password) {
+            if (emailId == 'admin@gmail.com' && password == 'admin123') {
+                return 'Login Successfully'
+            } else {
+                return 'Failed, Try Once Again'
+            }
+        }
+        // greet();
+        // addNumber(21, 32)
+        // addNumber(210, 321)
+        var result = checkLoginDetails('admin@gmail.com', 'admin123')
+        alert(result)
+    </script>
 </head>
 <body>
     <h2>User Defined Function</h2>
     <script>
+        // In JS we can write user defined function in many ways. Function mainly used to do re-usability of the code(Means: We can call the funtion as many times as we want(Maybe a Hundred or Ten Thousand times))
+        // Function without Parameter & return type
+        // function greet() {
+        //     document.write('Welcome to User Defined Function<br>')
+        //     document.write('This is a User Defined Function<br><br>')
+        // }
+        // greet();
+        // greet();
+        // greet();
+        // greet();
+        // greet();
+
         // function checkLoginDetails(emailId, password) {
         //     if (emailId == 'admin@gmail.com' && password == 'admin@123') {
         //         return 'Success'
@@ -17,7 +53,7 @@
         //     checkLoginDetails('admin@gmail.com','admin@124')
         // }
 
-        function calculateTheValue(num1, num2) {
+        function calculateTheValue(num1, num2, operation) {
             var cal = num1, num2;
             alert('Calculation is ' + cal)
             // var operation = eval(prompt('Enter the Operation you want to perform: +, -, *, /'))
@@ -42,12 +78,23 @@
             //     default:
             //         cal = 'Invalid Operator';
             // }
-        }
-        calculateTheValue(10 + 5)
-        calculateTheValue(1 - 5)
-        calculateTheValue(17 * 5)
-        calculateTheValue(27 / 15)
-        calculateTheValue(14 % 5)
+        // }
+        // calculateTheValue(10 + 5)
+        // calculateTheValue(1 - 5)
+        // calculateTheValue(17 * 5)
+        // calculateTheValue(27 / 15)
+        // calculateTheValue(14 % 6)
+
+        // Function passing parameter & return type
+        // function loginDetails(emailId, password) {
+        //     if (emailId == 'admin@gmail.com' && password == 'admin123') {
+        //         return 'Success';
+        //     } else {
+        //         return 'Failure';
+        //     }
+        // }
+        // var result1 = loginDetails('admin@gmail.com', 'admin123')
+        // alert(result1)
     </script>
 </body>
 </html>
