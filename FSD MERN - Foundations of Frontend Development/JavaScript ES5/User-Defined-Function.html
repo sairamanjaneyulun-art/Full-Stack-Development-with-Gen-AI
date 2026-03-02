@@ -8,19 +8,39 @@
         function greet() {
             alert('This is User Defined Function')
         }
+
+        function calculate(a, b) {
+            var cal = a, b;
+            alert(cal)
+        }
+
+        function checkLoginDetails(emailID, password) {
+            if (emailID == 'admin@gmail.com', password == 'admin@123') {
+                return 'Login Successfull'
+            } else {
+                return 'Login Failed. Try Again...!'
+            }
+        }
     </script>
 </head>
 <body>
     <h2>User Defined Function</h2>
     <script>
-        greet();
-        greet();
+        // greet();
+        // greet();
 
         // for (let i = 1; i <= 100; i++) {
         //     greet()
-        // } // Simple Example for calling the same function for 100 times.
+        // } // Simple Example for calling the same function for 100 times using for loop.
 
-        
+        // calculate(12 + 4)
+        // calculate(12 - 4)
+        // calculate(12 * 4)
+        // calculate(12 / 4)
+        // calculate(12 % 4)
+
+        var login = checkLoginDetails('admin@gmail.com', 'admin@123')
+        alert(login)
     </script>
 </body>
 </html>

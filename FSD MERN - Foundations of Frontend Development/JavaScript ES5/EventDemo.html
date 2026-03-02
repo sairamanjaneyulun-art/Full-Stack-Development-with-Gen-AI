@@ -9,21 +9,20 @@
             console.log('Event Generated')
         }
 
-        function KeyDownEvent() {
-            console.log('Key Up Event Fired')
+        function keyDownEvent() {
+            console.log('Key Down Event Generated')
         }
 
-        function KeyUpEvent() {
-            console.log('Key Down Event Fired')
+        function keyUpEvent() {
+            console.log('Key Up Event Generated')
         }
     </script>
 </head>
 <body>
     <h3>Event Demo</h3>
     <input type="button" value="Click Here" onclick="alert('Event Generated')"><br>
-    <input type="button" value="Double Click" ondblclick="alert('Double Click, Event Generated')"><br>
+    <input type="button" value="Double Click Here" ondblclick="alert('Double Click, Event Generated')"><br>
     <input type="button" value="Call User Defined Function" onclick="fun()"><br>
-    <input type="text" name="fname" 
-        onkeydown="KeyDownEvent()" onkeyup="KeyUpEvent()">
+    <input type="text" name="fname" onkeydown="keyDownEvent()" onkeyup="keyUpEvent()">
 </body>
 </html>
