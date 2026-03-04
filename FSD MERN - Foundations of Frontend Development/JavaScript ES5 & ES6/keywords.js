@@ -21,4 +21,5 @@ for(let j = 0; j <= 10; j++) {
 // Cannot be accessed from here because 'let' keyword uses block scope(means inside the curly brackets{}).
 
 const c = 2;
-c = 5; // Cannot be Re-assign/Re-Declare the value when using the 'const' keyword.
+// c = 5; // Cannot be Re-assign/Re-Declare the value when using the 'const' keyword.
+// Remove the comments & Open the browser console to see the error.
