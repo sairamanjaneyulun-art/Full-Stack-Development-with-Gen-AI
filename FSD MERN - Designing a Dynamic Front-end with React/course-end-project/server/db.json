@@ -1,0 +1,82 @@
+{
+  "logins": [
+    {
+      "email": "hr@gmail.com",
+      "password": "hr123",
+      "role": "hr",
+      "id": "238f"
+    },
+    {
+      "id": "03fd",
+      "email": "john@gmail.com",
+      "password": "john123",
+      "role": "Employee"
+    },
+    {
+      "id": "7049",
+      "email": "raj@gmail.com",
+      "password": "raj123",
+      "role": "Employee"
+    },
+    {
+      "id": "3169",
+      "email": "nsairamanjaneyulu14@gmail.com",
+      "password": "Sairam@14",
+      "role": "Employee"
+    }
+  ],
+  "employees": [
+    {
+      "id": "a9b5",
+      "fname": "John",
+      "lname": "sena",
+      "age": "45",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "2aec",
+      "fname": "Raj",
+      "lname": "Deep",
+      "age": "34",
+      "email": "raj@gmail.com"
+    },
+    {
+      "id": "acf3",
+      "fname": "Sai Ramanjaneyulu",
+      "lname": "N",
+      "age": "21",
+      "email": "nsairamanjaneyulu14@gmail.com"
+    }
+  ],
+  "leaveInformation": [
+    {
+      "id": "8e39",
+      "employeeEmail": "raj@gmail.com",
+      "numberOfLeaves": "2",
+      "reasonForLeave": "Not feeling well",
+      "status": "approved"
+    },
+    {
+      "id": "6071",
+      "employeeEmail": "john@gmail.com",
+      "numberOfLeaves": "10",
+      "reasonForLeave": "Going to native place",
+      "status": "rejected"
+    },
+    {
+      "id": "5fae",
+      "employeeEmail": "nsairamanjaneyulu14@gmail.com",
+      "numberOfLeaves": "4",
+      "reasonForLeave": "Health Issue",
+      "status": "Rejected"
+    },
+    {
+      "id": "123e",
+      "employeeEmail": "nsairamanjaneyulu14@gmail.com",
+      "numberOfLeaves": "6",
+      "reasonForLeave": "Family function",
+      "status": "Approved"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
