@@ -1,5 +1,5 @@
 var a  = 10;
-a = 20; // Re-assigning/Re-initialzing the value 
+a = 20; // Re-assigning/Re-initialzing the Value 
 var a = 300; // Re-Declaring the Value
 // document.writeln("<br>The Value of 'a' is " + a)
 
