@@ -23,6 +23,12 @@
       "email": "nsairamanjaneyulu14@gmail.com",
       "password": "Sairam@14",
       "role": "Employee"
+    },
+    {
+      "id": "a24d",
+      "email": "sairamanjaneyulun@gmail.com",
+      "password": "Sairam1234",
+      "role": "Employee"
     }
   ],
   "employees": [
@@ -46,6 +52,13 @@
       "lname": "N",
       "age": "21",
       "email": "nsairamanjaneyulu14@gmail.com"
+    },
+    {
+      "id": "0ba1",
+      "fname": "Sai",
+      "lname": "N",
+      "age": "21",
+      "email": "sairamanjaneyulun@gmail.com"
     }
   ],
   "leaveInformation": [
@@ -76,6 +89,20 @@
       "numberOfLeaves": "6",
       "reasonForLeave": "Family function",
       "status": "Approved"
+    },
+    {
+      "id": "1831",
+      "employeeEmail": "sairamanjaneyulun@gmail.com",
+      "numberOfLeaves": "3",
+      "reasonForLeave": "Personal Issue",
+      "status": "Approved"
+    },
+    {
+      "id": "97ac",
+      "employeeEmail": "john@gmail.com",
+      "numberOfLeaves": "5",
+      "reasonForLeave": "Family Function",
+      "status": "pending"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
