@@ -42,7 +42,7 @@ let largestNum1 = function(a, b) {
 console.log(largestNum1(21, 5))
 
 // Find the largest of two number using Arrow Style Function
-let largestNum2 = function(a, b) {
+let largestNum2 = (a, b) => {
     if (a > b) {
         return (a) + ' is Largest Number'
     } else {
