@@ -1,4 +1,4 @@
-// Function is a set of instructions
+// Function is a set of instructions which are used for specific task.
 // Normal Style Function
 display1(); // We can call the function before declaration
 function display1() {
@@ -8,7 +8,7 @@ display1();
 
 // Expression Style Function
 // display2(); // Error: We can't call function before declaration
-// Here variableName is converted to functionName
+// Here, The variableName is converted to functionName.
 let display2 = function() {
     console.log('Expression Style Function')
 }
