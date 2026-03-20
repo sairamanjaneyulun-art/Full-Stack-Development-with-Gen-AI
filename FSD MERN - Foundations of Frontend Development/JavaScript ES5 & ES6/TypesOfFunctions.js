@@ -1,12 +1,12 @@
-// Function is a set of instructions which are used for specific task.
-// Normal Style Function
+// Function is used to write the set of instructions to perform a specific task.
+// Normal Style Function -> ES5
 display1(); // We can call the function before declaration
 function display1() {
     console.log('Normal Style Function')
 }
 display1();
 
-// Expression Style Function
+// Expression Style Function -> ES5
 // display2(); // Error: We can't call function before declaration
 // Here, The variableName is converted to functionName.
 let display2 = function() {
@@ -14,7 +14,7 @@ let display2 = function() {
 }
 display2();
 
-// Arrow Style Function
+// Arrow Style Function -> ES6
 // Here function keyword is converted to arrow function
 let display3 = () => console.log('Arrow Style Function')
 display3();
@@ -27,7 +27,7 @@ let addNumber1 = function(a,b) {
 console.log('Addition of two numbers using Expression Style Function: ' + addNumber1(12, 5))
 
 // Addition of two numbers using Arrow Style Function
-// By default arrow function returns value or expression without return keyword.
+// By default arrow function returns value or expression without return keyword (Only for single line Arrow Style Function).
 let addNumber2 = (a,b) => a + b;
 console.log('Addition of two numbers using Arrow Style Function: ' + addNumber2(11, 3))
 
