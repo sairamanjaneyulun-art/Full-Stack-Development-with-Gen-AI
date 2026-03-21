@@ -54,7 +54,7 @@
 // console.log(largestNum2(2, 5))
 
 // callback function
-// 
+// Passing function name or funcion body or function itself to another function as a parameter is known as callback function.
 function greeting(fname, callback) {
     return "Welcome " + callback(fname)
 }
@@ -70,3 +70,16 @@ console.log(greeting("Sourya Rama Asura", function(fname) {
     return "Mr " + fname
 }))
 console.log(greeting("Sree Leela", (fname) => "Ms " + fname))
+
+// Here callback function is used to call the Date & Time.
+function displayDate () {
+    document.getElementById("demo").innerHTML = Date();
+}
+
+document.getElementById("myButton").addEventListener('click', displayDate)
+
+setTimeout(myFunction, 3000)
+
+function myFunction() {
+    document.getElementById('demo0').innerHTML = 'Sourya Rama Asura';
+}
