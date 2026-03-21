@@ -78,6 +78,7 @@ function displayDate () {
 
 document.getElementById("myButton").addEventListener('click', displayDate)
 
+// Here's Another callback function using 'setTimeout' to Display the content after 3 Seconds.
 setTimeout(myFunction, 3000)
 
 function myFunction() {
